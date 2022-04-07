@@ -7,7 +7,7 @@ import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.*;
 
 
-public class WebTest {
+public class WebTest extends TestBase{
 
     @Test
     void testLogotipOzon() {
